@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.dbm0204.assignment171.MainActivity">
+
+
+    <Button
+        android:text="Start Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#311b92"
+        android:id="@+id/start_btn" />
+
+    <Button
+        android:text="STOP PLAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#311b92"
+        android:id="@+id/stop_btn"
+        android:layout_below="@+id/start_btn"
+        android:layout_alignRight="@+id/start_btn"
+        android:layout_alignEnd="@+id/start_btn" />
+</RelativeLayout>
